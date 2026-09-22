@@ -1,0 +1,4 @@
+interface:
+  display_name: "DCDC 原理图与 PCB 布局助手"
+  short_description: "辅助 Buck、Boost、Buck-Boost 电源的原理图确认、器件选型与 PCB 布局优化"
+  default_prompt: "请使用 $dcdc-schematic-pcb-layout，先根据芯片型号和电源需求核对数据手册并输出待确认的外围原理图，再在确认后给出可视化 PCB 布局、回路面积和走线建议。"
