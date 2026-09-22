@@ -4,6 +4,8 @@
 
 ## 主要特性
 
+### 嵌入式项目规划助手
+
 - 先确认原理图、芯片型号、网络和引脚连接，再查阅相关数据手册与协议。
 - 识别 Keil、IAR、STM32CubeMX 及其他已有工程结构。
 - 关键结论引用原理图页、器件位号、网络名、文档页码或源码行号。
@@ -29,7 +31,7 @@
 https://github.com/Even-lwx/embedded-project-planner/tree/main/skills/embedded-project-planner
 ```
 
-也可以把 `skills/embedded-project-planner` 目录复制到 `$CODEX_HOME/skills/embedded-project-planner`。`CODEX_HOME` 未设置时，默认位置通常是 `~/.codex/skills/embedded-project-planner`。
+也可以把 `skills/embedded-project-planner` 目录复制到 `$CODEX_HOME/skills/embedded-project-planner`。
 
 安装 DCDC 原理图与 PCB 布局助手：
 
@@ -42,13 +44,15 @@ https://github.com/Even-lwx/embedded-project-planner/tree/main/skills/dcdc-schem
 
 ## 使用
 
+### 嵌入式项目规划
+
 ```text
 使用 $embedded-project-planner
 项目根路径：D:\projects\demo
 目标功能：实现传感器采集驱动并接入现有任务调度
 ```
 
-首次调用只会调查项目并制定计划。要进入实施阶段，需在计划完成后明确说明“按该计划实施”或同等含义。实施顺序固定为：Git 仓库与 `.gitignore` 基线 → `code/code/Hardware/` 底层硬件库 → 上层功能 → 集成验证。
+首次调用只会调查项目并制定计划。要进入实施阶段，需在计划完成后明确说明“按该计划实施”或同等含义。
 
 ### DCDC 电源设计
 
