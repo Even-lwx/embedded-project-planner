@@ -1,0 +1,7 @@
+interface:
+  display_name: "嵌入式项目规划器"
+  short_description: "按 PCB、文档、代码顺序调查并制定可追溯开发计划"
+  default_prompt: "使用 $embedded-project-planner，分析嵌入式项目根路径，并为指定目标功能制定可执行开发计划。"
+
+policy:
+  allow_implicit_invocation: true
